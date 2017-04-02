@@ -1,0 +1,65 @@
+
+*{
+    box-sizing: border-box;
+}
+div {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+a:hover{
+    text-decoration: none;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+
+.head {
+
+    height:290px;
+    background-image: url(../img/logo1.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+.footer {
+    background-color: #518387;
+    color: #bbf5ef;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+
+
+}
+
+
+
+
+@charset "utf-8";
+/* reset */
+/*body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend, input, textarea, button, select, th, td, pre { margin: 0; padding: 0; }*/
+a {text-decoration: none;outline:none; }
+input, button,select { outline: none; }
+i, em, s { font-style: normal; text-decoration: none; }
+*{margin: 0;padding: 0;}
+body{color: #656566;font-size: 12px;background-color: #fff;font-family: "微软雅黑";}
+ul, ol { list-style: none; }
+h1, h2, h3, h4, h5, h6 { text-decoration: none; font-weight: normal; font-size: 100%; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom:1;}
+.fl { float: left; }
+.fr { float: right; }

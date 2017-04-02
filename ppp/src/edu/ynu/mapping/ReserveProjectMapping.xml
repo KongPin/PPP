@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace = "edu.ynu.mapper.ReserveProjectMapper">
+	<resultMap  id="BaseResultMap" type="edu.ynu.entity.ReserveProjectEntity">
+		<result property = "Pid" column = "Pid" jdbcType = "INT"/>
+		<result property = "Pname" column = "Pname" jdbcType = "VARCHAR"/>
+		<result property = "Parea" column = "Parea" jdbcType = "VARCHAR"/>
+		<result property = "Pindust" column = "Pindust" jdbcType = "VARCHAR"/>
+		<result property = "PCS" column = "PCS" jdbcType = "TEXT"/>
+		<result property = "Pinvest" column = "" jdbcType = "FLOAT"/>
+		<result property = "Pway" column = "" jdbcType = "VARCHAR"/>
+		<result property = "Poper" column = "" jdbcType = "VARCHAR"/>
+		<result property = "Prespon" column = "" jdbcType = "VARCHAR"/>
+		<result property = "Pphone" column = "" jdbcType = "VARCHAR"/>
+		<result property = "PRT" column = "" jdbcType = "INT"/>
+	</resultMap>
+	
+	<sql id="Base_Column">
+		Pid,Pname,Parea,Pindust,PCS,Pinvest,Pway,Poper,Prespon,Pphone,PRT
+	</sql>
+	<select id="listAll" resultMap = "BaseResultMap">
+	SELECT
+	<include refid="Base_Column"/>
+	FROM pro WHERE PLT='水利';
+	</select>
+</mapper>

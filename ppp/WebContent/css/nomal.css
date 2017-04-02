@@ -1,0 +1,15 @@
+.left>a{
+    color: #bbf5ef;
+    background-color: #518387;
+}
+.left>a:hover{
+    color: #518387;
+
+}
+.importInfo{
+    font-size: 24px;
+    font-weight: 800;
+}
+.moreInfo{
+    font-size: 13px;
+}

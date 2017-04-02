@@ -1,0 +1,117 @@
+
+input:focus,select:focus{
+    border-color:#3682D6 !important ;
+}
+.register{
+    width: 650px;
+    border: 1px solid #DDD;
+    margin: 50px auto;
+}
+.register .username .box,.register .password .box,.register .safety .box,.register .affirm_pwd .box,.register .problem .box,.register .answer .box,.register .verification .box{
+    width: 200px;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    float: left;
+}
+/*用户名*/
+.register .username,.register .password,.register .safety,.register .affirm_pwd,.register .problem,.register .answer,.register .verification,.register .agree{
+    margin-top: 20px;
+}
+.register .username .box i,.register .password .box i,.register .affirm_pwd .box i,.register .verification .box i{
+    color: red;
+}
+.register .username .box span,.register .password .box span,.register .safety .box>span,.register .affirm_pwd .box span,.register .problem .box>span,.register .verification .box span{
+    display: inline-block;
+    line-height: 24px;
+}
+.register .username input,.register .password input,.register .affirm_pwd input,.register .answer input,.register .verification>input{
+    float: left;
+    height: 22px;
+    width: 170px;
+    border: 1px solid #DDD;
+}
+.register .username .prompt,.register .password .prompt,.register .affirm_pwd .prompt{
+    float: left;
+    color: #FFA84F;
+    margin-left: 30px;
+    text-overflow:ellipsis;
+    white-space : nowrap;
+    overflow : hidden;
+}
+/*密码*/
+.register .safety .risk{
+    height: 24px;
+    width: 70px;
+    padding-left: 180px;
+    float: left;
+    line-height: 24px;
+    background: url("../images/anquan.jpg") no-repeat left center;
+}
+
+/*确认密码*/
+.register .problem .pwd_problem{
+    height: 24px;
+    width: 170px;
+    color: #656566;
+}
+.register .problem .pwd_problem option{
+    color: #656566;
+}
+/*/!*问题答案*!/*/
+.register .verification>input{
+    width: 60px;
+}
+.register .verification .verification_text{
+    width: 70px;
+    height: 24px;
+    background-color: red;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.register .verification .verification_text>img{
+    width: 70px;
+    height: 24px;
+}
+.register .verification>button{
+    cursor: pointer;
+    padding: 2px 4px;
+    background: #3682D6;
+    color: #fff;
+    font-weight: 600;
+}
+/*协议*/
+.register .agree{
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+}
+.register .agree input{
+    position: absolute;
+    left: 170px;
+    top: 20px;
+    width: 18px;
+    height: 18px;
+
+}
+.register .agree span{
+    margin-left: 200px;
+}
+.register .agree span i{
+    color: #1D7CDE;
+}
+/*注册按钮*/
+.register .register_btn{
+    display: block;
+    padding: 6px 10px;
+    background: #3682D6;
+    color: #fff;
+    width: 400px;
+    text-align: center;
+    margin-left: 112px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+

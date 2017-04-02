@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+<div class="register">
+    <div class="username clearfix">
+        <div class="box">
+            <i>*</i>
+            <span>用户名：</span>
+        </div>
+        <input type="text" placeholder="请输入用户名"/>
+        <div class="prompt">由字母，数字，或者符号组成</div>
+    </div>
+    <div class="password clearfix">
+        <div class="box">
+            <i>*</i>
+            <span>密码：</span>
+        </div>
+        <input type="text" placeholder="请输入密码"/>
+        <div class="prompt">不少于6位字符</div>
+    </div>
+    <div class="safety clearfix">
+        <div class="box">
+            <span>安全级别：</span>
+        </div>
+        <div class="risk">危险</div>
+    </div>
+    <div class="affirm_pwd clearfix">
+        <div class="box">
+            <i>*</i>
+            <span>密码确认：</span>
+        </div>
+        <input type="text" placeholder="请再次输入密码"/>
+        <div class="prompt">再次输入确认密码</div>
+    </div>
+    <div class="problem clearfix">
+        <div class="box">
+            <span>密码保护问题：</span>
+        </div>
+        <select name="pwd_problem" class="pwd_problem" id="pwd_problem">
+            <option value="">你的初中同学是</option>
+            <option value="">你的生日时间</option>
+            <option value="">你小学班主任名字</option>
+        </select>
+    </div>
+    <div class="answer clearfix">
+        <div class="box">
+            <span>密码保护答案：</span>
+        </div>
+        <input type="text"/>
+    </div>
+    <div class="verification clearfix">
+        <div class="box">
+            <i>*</i>
+            <span>验证码：</span>
+        </div>
+        <input type="text"/>
+        <div class="verification_text">
+            <img src="images/yzm1.png" id="imgurl" alt=""/>
+        </div>
+        <button id="Refresh_btn">刷新</button>
+    </div>
+    <div class="agree">
+        <input type="checkbox"/>
+        <span>我已阅读并且同意遵守<i>《中华人名共和国的条约》</i></span>
+    </div>
+    <a href="javascript:;" class="register_btn">同意协议并注册</a>
+</div>
+<script>
+    window.onload=function(){
+        var imgnumber=2;
+        var Refresh_btn=document.getElementById("Refresh_btn");
+        var imgurl=document.getElementById("imgurl");
+        Refresh_btn.onclick=function(){
+            changeImgUrl()
+        }
+
+        function changeImgUrl(){
+            imgurl.src="images/"+"yzm"+imgnumber+".png";
+            imgnumber++;
+            if(imgnumber>4){
+                imgnumber=1;
+            }
+        }
+    }
+
+
+</script>
+</body>
+</html>

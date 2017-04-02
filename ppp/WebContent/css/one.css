@@ -1,0 +1,250 @@
+
+
+.banxin{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.search_box{
+    width: 920px;
+    padding: 8px 0px 0px 60px;
+}
+.search_box .search_box_t{
+    width: 920px;
+}
+.search_box .search_box_t .search{
+    width: 710px;
+    height: 40px;
+    border: 2px solid #4D7AA4;
+    float: left;
+}
+.search_box .search_box_t .search>input{
+    width: 606px;
+    height: 38px;
+    float: left;
+    border: 0;
+}
+.search_box .search_box_t .search>button{
+    width: 104px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #1D7CDE;
+    float: left;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+.search_box .search_box_t .map,.search_box .search_box_t .period{
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #1D7CDE;
+    float: left;
+    background-color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-family: "微软雅黑";
+
+}
+.search_box .search_box_b{
+    width: 920px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.search_box .search_box_b .hot{}
+.search_box .search_box_b .hot li{
+    float: left;
+}
+.search_box .search_box_b .hot li a{
+    display: block;
+    margin-right: 14px;
+    color: #4B4B4B;
+}
+.search_box .search_box_b .hot li:first-child a{
+    color: #8E8E8F;
+}
+
+/*第二个框*/
+.changeColor{
+    color: #727172;
+    padding: 12px;
+    text-align: right;
+    font-weight: 600;
+}
+
+.kind_box{
+    width: 940px;
+    padding: 20px;
+    border: 1px solid #DDDDDD;
+}
+
+.kind_box>h4{
+    margin-bottom: 12px;
+    text-align: left;
+}
+.kind_box .province_box li:first-child{
+    width: 60px;
+    padding: 12px 12px 0 0;
+    height: 26px;
+    text-align: right;
+}
+.kind_box .money ul li:last-child{
+    margin-left: 40px;
+    margin-top: 7px;
+}
+.kind_box .money ul li:last-child input{
+    width: 50px;
+    height: 20px;
+    border: 1px solid #DDD;
+
+
+}
+.kind_box .money ul li:last-child span{
+    color: #727172;
+}
+.kind_box .money ul li:last-child button{
+    padding: 2px 6px ;
+    border: 1px solid #DDD;
+    margin-left: 6px;
+    color: #727172;
+    font-weight: 600;
+
+}
+.kind_box .province_box,.kind_box .industry,.kind_box .money,.kind_box .rank{
+    width: 940px;
+    border-top: 1px solid #F4F3F4;
+}
+.kind_box .rank{
+    border: 0;
+}
+.kind_box .province_box ul,.kind_box .industry ul,.kind_box .money ul,.kind_box .rank ul{
+    width: 790px;
+
+}
+.kind_box .province_box ul li,.kind_box .industry ul li,.kind_box .money ul li,.kind_box .rank ul li{
+    float: left;
+}
+.kind_box .province_box ul li a,.kind_box .industry ul li a,.kind_box .money ul li a,.kind_box .rank ul li a{
+    display: block;
+    padding: 10px;
+    color: #8193B1;
+    font-weight: 500;
+}
+.kind_box .province_box .more{
+    float: right;
+    width: 50px;
+    padding:12px ;
+    cursor: pointer;
+}
+.kind_box .province_box .more span,.kind_box .province_box .more i{
+    color: #585859;
+    font-family: "微软雅黑";
+    font-weight: 600;
+
+}
+.kind_box .province_box .more i{
+    color: #999A9D;
+}
+
+/*第三盒子*/
+.project_box{
+    width: 980px;
+}
+.project_box .kind{
+    width: 980px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #999A9D;
+}
+.project_box .kind a{
+    float: left;
+    padding: 16px;
+    display: block;
+    color: #727172;
+    font-weight: 600;
+}
+
+.project_box ul{
+    width: 980px;
+}
+.project_box ul li{
+    margin-bottom: 12px;
+    padding: 14px;
+    border: 1px solid #DFDFDF;
+}
+.project_box ul li .img_box{
+    width: 256px;
+    height: 144px;
+}
+.project_box ul li .img_box img{
+    width: 256px;
+    height: 144px;
+}
+.project_box ul li .project_small_box{
+    width: 680px;
+}
+.project_box ul li .project_small_box .project>h3{
+    font: 600 14px "微软雅黑";
+}
+.project_box ul li .project_small_box .project>button{
+    padding: 3px 7px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #96C1EC;
+    border: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor:pointer;
+}
+.project_box ul li .project_small_box>span{
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    color: #818181;
+}
+.project_box ul li .project_small_box>p{
+    margin-bottom: 9px;
+    line-height: 200%;
+    color: #505050;
+    
+}
+.project_box ul li .project_small_box .time_box>span{
+    color: #818181;
+}
+.project_box ul li .project_small_box .time_box>button{
+    background-color: #92A934;
+    padding: 3px 7px;
+    color: #fff;
+    font-weight: 600;
+    border: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
